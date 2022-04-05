@@ -1,0 +1,30 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    padding: 5px;
+    width: 100%;
+}
+
+.wrapper .row {
+    font-size: 0px;
+    text-align: center;
+}
+
+.wrapper .row * {
+    font-size: 14px;
+}
+
+.wrapper .block {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    text-align: center;  
+    display: inline-block;
+    height: 50px;
+    margin: 1%;
+    margin-bottom: 5px;
+    width: 50px;
+}
